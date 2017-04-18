@@ -5,6 +5,7 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,7 +26,7 @@ public class publishedarticles extends AppCompatActivity {
     ListView lv;
     int ids[];
     parsejson pjson;
-    String url = "http://192.168.43.20/article-info/api/index.php?";
+    String url = "http://192.168.43.20/article-info/api/fetcharticles.php?type=user&";
     SessionManagement session;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +56,7 @@ public class publishedarticles extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         //Log.d("Data",response.toString());
+                        Log.d("Response", response);
                         showJSON(response);
                     }
                 },
