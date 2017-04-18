@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by kamal pc on 31-Oct-16.
+ * Created by astitva pc on 31-Oct-16.
  */
 public  class MyAdapter extends BaseAdapter {
     Context mContext;

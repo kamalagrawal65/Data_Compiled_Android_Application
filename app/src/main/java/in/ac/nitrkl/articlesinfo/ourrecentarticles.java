@@ -26,7 +26,7 @@ public class ourrecentarticles extends AppCompatActivity {
     ListView lv;
     int ids[];
     parsejson pjson;
-    final String url = "https://datacompiled.000webhostapp.com/recentarticles.php";
+    final String url = "http://192.168.43.20/article-info/api/recentarticles.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

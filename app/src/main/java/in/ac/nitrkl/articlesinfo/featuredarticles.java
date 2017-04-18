@@ -24,7 +24,7 @@ public class featuredarticles extends AppCompatActivity {
     ListView lv;
     int ids[];
     parsejson pjson;
-    final String url = "https://datacompiled.000webhostapp.com/featuredarticles.php";
+    final String url = "http://192.168.43.20/article-info/api/featuredarticles.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

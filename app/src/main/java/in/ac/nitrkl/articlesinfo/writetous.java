@@ -99,7 +99,7 @@ public class writetous extends AppCompatActivity {
         }
         else {
             final RequestQueue queue = Volley.newRequestQueue(this);
-            final String url = "https://datacompiled.000webhostapp.com/writetous.php";
+            final String url = "http://192.168.43.20/article-info/api/writetous.php";
             final StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override

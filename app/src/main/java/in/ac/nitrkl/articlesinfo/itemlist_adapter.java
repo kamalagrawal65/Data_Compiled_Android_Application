@@ -11,7 +11,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 /**
- * Created by kamal pc on 01-Nov-16.
+ * Created by astitva pc on 01-Nov-16.
  */
 
 public class itemlist_adapter extends ArrayAdapter<String>{
